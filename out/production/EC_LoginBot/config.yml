@@ -1,0 +1,44 @@
+Plugin de login: 'default' #Disponíveis: nLogin & AuthMe, caso não tenha nenhum, escreva 'default'.
+Permissao do comando: 'botlogin.cmd' #/botlogin.
+Senha: '1234@1' #Esta senha é usada para deslogar ou logar jogadores com o comando principal (/botlogin).
+
+Bot:
+  token: 'ODI4NzQ1MjAxMjU3MjgzNTk0.YGuDHQ.A4EIAQrkZ2AZ9jmQcaeJ_FWYZkA'
+  channel: '835247309205143612' #Canal para autenticar.
+
+Users: #Staffs.
+  EliCodes:
+    user-id: '396309357064749058'
+
+Messages:
+  no-permission: '&cVocê não possui permissão suficiente.'
+  player-not-exists: '&cJogador inexistente!'
+  player-not-staff: '&cO jogador não está na lista de staffs.'
+  invalid-password: '&cSenha inválida!'
+  se-autentique: '&eSe autentique no canal &f#autenticação &epara logar.'
+  autenticado: '&aAutenticado com sucesso.'
+  cmd-autenticado: '&eVocê autenticou o jogador &f@player.'
+  desautenticado: '&bVocê foi desautenticado.'
+  cmd-desautenticado: '&eVocê desautenticou o jogador &f@player.'
+  already-autenticado: '&cO jogador já está autenticado!'
+  already-not-autenticado: '&cO jogador já não está autenticado!'
+  not-logged: '&cO jogador ainda não está logado!'
+  demorou: '&cVocê demorou muito para se autenticar.'
+  rejeitou: '&cVocê rejeitou a autenticação.'
+  time-autenticar:
+    sound: NOTE_PLING
+    tempo: 30
+    message:
+      - '&cFalta &f@tempo &cpara você se autenticar.'
+  nao-iniciou: '&cO servidor ainda não iniciou completamente.'
+  activity:
+    initing: 'Servidor a iniciar...'
+    init: 'Players: @players/@max_players'
+  embed:
+    title: 'Se autentique, @player.'
+    field:
+      name: 'Como?'
+      value: 'Reaja no emoji ✅ para se autenticar.'
+    footer:
+      text: 'Security 2021'
+      image: 'https://i.imgur.com/8dppHbt.png'

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EC_BotLogin">
+    <output-path>$USER_HOME$/Desktop/</output-path>
+    <root id="archive" name="EC_BotLogin.jar">
+      <element id="module-output" name="EC_LoginBot" />
+    </root>
+  </artifact>
+</component>

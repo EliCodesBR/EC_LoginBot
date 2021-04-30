@@ -1,0 +1,10 @@
+name: EC_BotLogin
+version: 1.0.1-ALPHA
+main: net.elicodes.bot.Main
+author: EliCodes
+description: Plugin para se autenticar (Login Staff) via discord.
+softdepend: [AuthMe, nLogin]
+depend: [JDASpigot]
+commands:
+  botlogin:
+    aliases: [loginstaff, stafflogin, loginbot]
